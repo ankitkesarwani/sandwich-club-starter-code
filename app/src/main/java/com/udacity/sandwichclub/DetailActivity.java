@@ -82,19 +82,19 @@ public class DetailActivity extends AppCompatActivity {
         if (main_name != null && !main_name.isEmpty()) {
             mMainName.setText(main_name);
         } else {
-            mAlsoKnownAs.setText("N/A");
+            mMainName.setText("N/A");
         }
 
         if (place_of_origin!=null && !place_of_origin.isEmpty()) {
             mPlaceOfOrigin.setText(place_of_origin);
         } else {
-            mAlsoKnownAs.setText("N/A");
+            mPlaceOfOrigin.setText("N/A");
         }
 
         if (description!=null && !description.isEmpty()) {
             mDescription.setText(description);
         } else {
-            mAlsoKnownAs.setText("N/A");
+            mDescription.setText("N/A");
         }
 
         if (also_known_as!=null && !also_known_as.isEmpty()) {
